@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5a90ea8b-be99-4f47-ae99-cab9d88b12e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{b0de617b-823f-4221-a26c-3d5ecd93db93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d3dx">
+      <UniqueIdentifier>{59cca8c7-5bb4-4ebf-8e50-0f72fe664661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d3dx">
+      <UniqueIdentifier>{afa0198d-bd54-4931-966c-f69fe13a7764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dinput">
+      <UniqueIdentifier>{d4544c00-97d2-4160-ad90-60e0f1c297fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dinput">
+      <UniqueIdentifier>{8ec269da-8552-48be-b2fa-e2ba2eff16b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{5b680f47-65d4-4b3c-afc7-bb55d0e49d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneObjects">
+      <UniqueIdentifier>{a989e9be-88d1-4372-877d-decb6e59dc87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RChUtils">
+      <UniqueIdentifier>{cecd2c0a-f72a-48f1-be69-1f777e5f9919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulations">
+      <UniqueIdentifier>{d1cf4585-6f24-4ed1-857b-374f3006eba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalLibs">
+      <UniqueIdentifier>{11bcbb93-c851-43e5-8bec-06b2216d15a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalLibs\ImPlotLib">
+      <UniqueIdentifier>{c55fd538-e60c-40aa-bd55-959fc947a095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExternalLibs\ImGuiLib">
+      <UniqueIdentifier>{a1c092e4-c5bd-4176-a8ac-46ec3d609e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Widgets-ImGui">
+      <UniqueIdentifier>{fd3692c8-6ec4-43ab-8905-156d832b4228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneObjects\Patches">
+      <UniqueIdentifier>{444ede86-0b2b-46cb-9d92-9bbee8791a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{67df0073-dde0-4bf1-98a4-f4df8cc0269c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneObjects\RenderTech">
+      <UniqueIdentifier>{ac2ddd4b-33ff-4cf4-a569-0dc7498c5b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneObjects\Basic">
+      <UniqueIdentifier>{461685f4-86f0-4c09-ba13-bc87df53fe6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textureGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="windowApplication.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\d3dx</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Source Files\d3dx</Filter>
+    </ClCompile>
+    <ClCompile Include="dxApplication.cpp">
+      <Filter>Source Files\d3dx</Filter>
+    </ClCompile>
+    <ClCompile Include="dxDevice.cpp">
+      <Filter>Source Files\d3dx</Filter>
+    </ClCompile>
+    <ClCompile Include="dxStructures.cpp">
+      <Filter>Source Files\d3dx</Filter>
+    </ClCompile>
+    <ClCompile Include="vertexTypes.cpp">
+      <Filter>Source Files\d3dx</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>Source Files\d3dx</Filter>
+    </ClCompile>
+    <ClCompile Include="diDeviceBase.cpp">
+      <Filter>Source Files\dinput</Filter>
+    </ClCompile>
+    <ClCompile Include="diInstance.cpp">
+      <Filter>Source Files\dinput</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files\dinput</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>Source Files\dinput</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SimCube.cpp">
+      <Filter>SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Maths3D.cpp">
+      <Filter>RChUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObj.cpp">
+      <Filter>SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClCompile>
+    <ClCompile Include="implot_items.cpp">
+      <Filter>ExternalLibs\ImPlotLib</Filter>
+    </ClCompile>
+    <ClCompile Include="implot.cpp">
+      <Filter>ExternalLibs\ImPlotLib</Filter>
+    </ClCompile>
+    <ClCompile Include="RChApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>SceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BicubicPatchBase.cpp">
+      <Filter>SceneObjects\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="CompBezier3PatchC0.cpp">
+      <Filter>SceneObjects\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="CompBezier3PatchC2.cpp">
+      <Filter>SceneObjects\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSystem.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="RenTechB3Patch.cpp">
+      <Filter>SceneObjects\RenderTech</Filter>
+    </ClCompile>
+    <ClCompile Include="RenTechBasic.cpp">
+      <Filter>SceneObjects\RenderTech</Filter>
+    </ClCompile>
+    <ClCompile Include="RenTechPoint.cpp">
+      <Filter>SceneObjects\RenderTech</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableVerts.cpp">
+      <Filter>SceneObjects\Basic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textureGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="windowApplication.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>Header Files\d3dx</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexTypes.h">
+      <Filter>Header Files\d3dx</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\d3dx</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Header Files\d3dx</Filter>
+    </ClInclude>
+    <ClInclude Include="dxApplication.h">
+      <Filter>Header Files\d3dx</Filter>
+    </ClInclude>
+    <ClInclude Include="dxDevice.h">
+      <Filter>Header Files\d3dx</Filter>
+    </ClInclude>
+    <ClInclude Include="dxptr.h">
+      <Filter>Header Files\d3dx</Filter>
+    </ClInclude>
+    <ClInclude Include="dxStructures.h">
+      <Filter>Header Files\d3dx</Filter>
+    </ClInclude>
+    <ClInclude Include="diInstance.h">
+      <Filter>Header Files\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="diptr.h">
+      <Filter>Header Files\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="diDeviceBase.h">
+      <Filter>Header Files\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Header Files\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>Header Files\dinput</Filter>
+    </ClInclude>
+    <ClInclude Include="compressed_pair.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ptr_vector.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SimCube.h">
+      <Filter>SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObj.h">
+      <Filter>SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths3D.h">
+      <Filter>RChUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="PlotUtils.h">
+      <Filter>Simulations</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>Simulations</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationPopup.h">
+      <Filter>Simulations</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ExternalLibs\ImGuiLib</Filter>
+    </ClInclude>
+    <ClInclude Include="implot_internal.h">
+      <Filter>ExternalLibs\ImPlotLib</Filter>
+    </ClInclude>
+    <ClInclude Include="implot.h">
+      <Filter>ExternalLibs\ImPlotLib</Filter>
+    </ClInclude>
+    <ClInclude Include="RChApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPopup.h">
+      <Filter>Widgets-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="TextInputPopup.h">
+      <Filter>Widgets-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiWidgets.h">
+      <Filter>Widgets-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiWidgetBase.h">
+      <Filter>Widgets-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>RChUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="RCMatrix.h">
+      <Filter>RChUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>SceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CompBezier3PatchC2.h">
+      <Filter>SceneObjects\Patches</Filter>
+    </ClInclude>
+    <ClInclude Include="BicubicPatchBase.h">
+      <Filter>SceneObjects\Patches</Filter>
+    </ClInclude>
+    <ClInclude Include="CompBezier3PatchC0.h">
+      <Filter>SceneObjects\Patches</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSystem.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="RenTechB3Patch.h">
+      <Filter>SceneObjects\RenderTech</Filter>
+    </ClInclude>
+    <ClInclude Include="RenTechBasic.h">
+      <Filter>SceneObjects\RenderTech</Filter>
+    </ClInclude>
+    <ClInclude Include="RenTechPoint.h">
+      <Filter>SceneObjects\RenderTech</Filter>
+    </ClInclude>
+    <ClInclude Include="WiredCube.h">
+      <Filter>SceneObjects\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionMan.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiArray.h">
+      <Filter>RChUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="QuaternionUtils.h">
+      <Filter>RChUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Array3D.h">
+      <Filter>RChUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableVerts.h">
+      <Filter>SceneObjects\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="LineStrip3D_Points.h">
+      <Filter>SceneObjects\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ_Loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeformableMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="defaultVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="defaultPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="BasicPhongPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="BasicPhongVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="b3PatchC0_DS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="b3PatchC0_HS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="b3PatchC2_HS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="worldVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="scPointGS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
